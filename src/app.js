@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 //rounting
-const home = require("./routes/home");
+const home = require("./home");
 
 //app setting
 app.set("veiws", "/views");
